@@ -1,0 +1,8 @@
+.open naverDB
+CREATE TABLE productTable(pCode char(5), pName, price int, amount int);
+INSERT INTO productTable VALUES('p0001', '��Ʈ��', 110, 5);
+INSERT INTO productTable VALUES('p0002', '���콺', 3, 22);
+INSERT INTO productTable VALUES('p0003', 'Ű����', 2, 11);
+.header on
+.mode column
+SELECT * FROM productTable;
